@@ -5,7 +5,7 @@ var nodemailer = require("nodemailer");
 var config = require("./config/config.json");
 var MongoClient = require('mongodb').MongoClient;
 var fs=require('fs');
-var url = "mongodb://superAdmin:admin123@10.90.0.52:27017/admin";///********newupdate */
+var url = "mongodb://superAdmin:admin123@10.xxxx:27017/admin";///********newupdate */
 var smtpTransport = nodemailer.createTransport(config.email.smtp);
 var csvexp = require('csv-export');
 
