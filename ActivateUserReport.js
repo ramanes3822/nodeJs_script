@@ -6,7 +6,7 @@ var nodemailer = require("nodemailer");
 //var sftpclient = require('scp2');
 var config = require("./config/config.json");
 var MongoClient = require('mongodb').MongoClient;
-var url = "mongodb://superAdmin:admin123@10.90.0.52:27017/admin";///********newupdate */
+var url = "mongodb://superAdmin:admin123@10.90.XXXX:27017/admin";///********newupdate */
 var count = 0;
 
 //initialize SMTP server
