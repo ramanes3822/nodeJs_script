@@ -9,6 +9,7 @@ var Date1=new Date("2019-04-30T16:00:00.00Z");var Date2=new Date("2019-05-31T16:
 // var yesterdaydate=new Date(todaydate.getTime()- 1000 * 60 * 60 * 24);
 var report=[];
 
+//connect mongo and query
 mongodb.connect(url,{useNewUrlParser:true},function (err,db){
     if (err) throw err;
     dbo=db.db("OCSServer");
