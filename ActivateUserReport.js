@@ -1,3 +1,4 @@
+/*To generate report for active user from the the mongodb and send to mail*/
 
 'use strict';
 var createCsvWriter = require('csv-writer').createObjectCsvWriter;
