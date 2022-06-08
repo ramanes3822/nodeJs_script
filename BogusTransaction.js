@@ -3,8 +3,8 @@ var createCsvWriter = require('csv-writer').createObjectCsvWriter;
 var config = require("./config/config.json");
 var MongoClient = require('mongodb').MongoClient;
 var fs = require('fs');
-var url = "mongodb://superAdmin:admin123@10.90.0.52:27017/admin";///********newupdate */
-//var url = "mongodb://nodejs_app:encrypt@10.90.0.53:27017,10.90.0.52:27017/admin?replicaSet=prd-rs01"
+var url = "mongodb://superAdmin:admin123@10.90.xx:27017/admin";///********newupdate */
+//var url = "mongodb://nodejs_app:encrypt@10.90.xx:27017,10.90.0.52:27017/admin?replicaSet=prd-rs01"
 
 //============================================================================
 // var createCsvWriter = require('csv-writer').createObjectCsvWriter;
