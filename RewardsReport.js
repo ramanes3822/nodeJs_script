@@ -1,6 +1,6 @@
 var mongodb = require('mongodb');
 var client = mongodb.MongoClient;
-var url = "mongodb://superAdmin:admin123@10.90.0.52:27017/OCSServer?authSource=admin";
+var url = "mongodb://superAdmin:admin123@10.xxx:27017/OCSServer?authSource=admin";
 var date1 = new Date("2018-12-06T16:00:00.00Z"); var date2 = new Date("2018-12-06T16:10:00.00Z");
 var Createcsv = require('csv-writer').createObjectCsvWriter;
 
